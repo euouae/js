@@ -53,12 +53,8 @@ const date = {
 };
 
 const instance = new SimpleDate(date);
-//instance.validate();
+instance.validate();
 
-describe('test suite', () => {
-    it('test spec', () => {
-        expect(instance.validate).toThrow('');
-    });
-});
+
 
 
